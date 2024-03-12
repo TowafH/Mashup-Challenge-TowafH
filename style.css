@@ -1,0 +1,117 @@
+ /* ORIGINAL TASK PUPILS STARTED WITH
+Full credit to code.org for task */
+h1{
+  color: #5f92bf
+}
+
+body{
+  background-color: #93bfe6;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lula{
+  color: saddlebrown;
+}
+#slowpoke{
+  color: #6d8d34
+}
+#hamster{
+  color: #a34d2e;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  border: 3px solid #83a0e2;
+  box-shadow: 1px 3px 10px 1px #657395;
+  outline-offset: 1px;
+  outline: groove 2px #4d5e84 ;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+}
+
+#top{
+  position: absolute;
+  left: 400px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+  background-color: #907a7a;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#toppuppy{
+  display: float;
+  width: 200px; 
+  height: 200px;
+  border: 1px solid black;
+  overflow:hidden;
+}
+#topturtle{
+  display: float;
+  width: 200px; 
+  height: 200px;
+  border: 1px solid black;
+  overflow:hidden;
+}
+#topfish{
+  display: float;
+  width: 200px; 
+  height: 200px;
+  border: 1px solid black;
+  overflow:hidden;
+}
+
+#toplula{
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 50%;
+  height: 60%;
+  background-color: #cfbfbf;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#topslowpoke{
+  position: absolute;
+  top: 920px;
+  left: 400px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 50%;
+  height: 60%;
+  background-color: #efecc2;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
+
+#tophamster{
+  position: absolute;
+  top: 1340px;
+  left: 400px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  width: 50%;
+  height: 60%;
+  background-color: #f0adad;
+  box-shadow: 1px 3px 10px 1px #657395;
+  overflow:hidden;
+}
