@@ -1,11 +1,11 @@
  /* ORIGINAL TASK PUPILS STARTED WITH
 Full credit to code.org for task */
 h1{
-  color: #5f92bf
+  color: black;
 }
 
 body{
-  background-color: #93bfe6;
+  background-color: #ffffff;
   text-align: center;
 }
 p{
@@ -29,7 +29,7 @@ p{
   margin-right: auto;
 }
 
-.container{
+.banner{
   border: 3px solid #83a0e2;
   box-shadow: 1px 3px 10px 1px #657395;
   outline-offset: 1px;
@@ -37,19 +37,23 @@ p{
   overflow: hidden;
   text-align: center;
   background-color: white;
+  background-image: url(https://img.freepik.com/free-vector/wild-fun-animal-paw-print-pattern-background-design-vector_1017-47618.jpg?w=1060&t=st=1710672062~exp=1710672662~hmac=a13f8d6f6ca9a5318c7f0189625d9c281d1f9c23c4b172d751259d5bbddba647);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #top{
   position: absolute;
-  left: 400px;
+  left: 300px;
   margin: 2px;
   padding: 2px;
   border: 1px solid black;
-  width: 50%;
-  height: 50%;
-  background-color: #907a7a;
+  height: 40%;
+  background-color: #b59797;
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
+  width: 80%;
+  left: 10%;
 }
 
 #toppuppy{
@@ -74,44 +78,75 @@ p{
   overflow:hidden;
 }
 
+.wave{
+  border: 1px solid #233c76;
+  text-align: center;
+  background-color: white;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 60%;
+  position:relative;
+  left: 20%;
+  transition: height 4s;
+  display:block;
+  top: 300px
+  }
+
+
+
 #toplula{
-  position: absolute;
-  top: 500px;
-  left: 400px;
-  margin: 2px;
-  padding: 2px;
   border: 1px solid black;
-  width: 50%;
-  height: 60%;
   background-color: #cfbfbf;
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
+#toplula{
+  transiton: 500ms;
+}
+#toplula:hover{
+  height: 500px;
+}
 
 #topslowpoke{
-  position: absolute;
-  top: 920px;
-  left: 400px;
-  margin: 2px;
-  padding: 2px;
   border: 1px solid black;
-  width: 50%;
-  height: 60%;
   background-color: #efecc2;
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
 }
+#topslowpoke{ 
+  transiton: 1s;
+  
+}
+#topslowpoke:hover{
+  height: 500px;
+  z-index: 1px;
+  }
 
 #tophamster{
-  position: absolute;
-  top: 1340px;
-  left: 400px;
-  margin: 2px;
-  padding: 2px;
   border: 1px solid black;
-  width: 50%;
-  height: 60%;
   background-color: #f0adad;
   box-shadow: 1px 3px 10px 1px #657395;
   overflow:hidden;
+}
+#tophamster{
+  transiton: 1s;
+  }
+#tophamster:hover{
+  height: 500px;
+  z-index: 1px;
+  }
+  
+.container{
+position: absolte;
+border: 3px solid #233c76;
+box-shadow: 1px 3px 10px 1px #4c639a;
+outline-offset: 1px;
+outline: groove 2px #4d5e84 ;
+background-color: white;
+height: 1000px;
+overflow: hidden;
+background-image: url(https://as1.ftcdn.net/v2/jpg/04/24/35/24/1000_F_424352469_WJYlrdisV68nj5yh3MWteLh8qohN7AZU.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
