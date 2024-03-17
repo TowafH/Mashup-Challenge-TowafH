@@ -28,7 +28,7 @@ p{
   margin-left: auto;
   margin-right: auto;
 }
-
+ /* Created banner in CSS */
 .banner{
   border: 3px solid #83a0e2;
   box-shadow: 1px 3px 10px 1px #657395;
